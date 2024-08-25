@@ -1,0 +1,2 @@
+CodeSorcerer-Website
+This project is a responsive website for "CodeSorcerer," a platform that enables users to test their coding skills and access programming resources. The website is crafted using HTML, CSS, Bootstrap, and JavaScript to create a clean, user-friendly interface. It showcases the core features of the platform, inviting users to explore coding challenges and educational content. The design is inspired by modern web aesthetics, ensuring a seamless experience across all devices.
