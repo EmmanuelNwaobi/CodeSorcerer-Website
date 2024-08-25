@@ -1,0 +1,119 @@
+/* Animation */
+.rightanim{
+    visibility: hidden;
+}
+.right{
+    animation-name: right;
+    animation-duration: 3s;
+    visibility: visible;
+}
+.leftanim{
+    visibility: hidden;
+}
+.left{
+    animation-name: left;
+    animation-duration: 3s;
+    visibility: visible;
+}
+.zoomanim{
+    visibility: hidden;
+}
+.zoom{
+    animation-name: zoom;
+    animation-duration: 3s;
+    visibility: visible;
+}
+@keyframes zoom{
+    from{transform: scale(0)}
+    to{transform: scale(1);}
+}
+.swipeanim{
+    visibility: hidden;
+}
+.swipe{
+    animation-name: swipe;
+    animation-duration: 3s;
+    visibility: visible;
+}
+.pulser{
+    animation: pulse 3s infinite ease-in-out;
+}
+
+/* keyframes */
+/* pulse animation */
+@keyframes pulse{
+    0%{
+        transform: translate(0, 0) scale(1);
+    }
+    50%{
+        transform: translate(0, -1%) scale(0.9);
+        box-shadow: 10px 10px 15px 10px #cbced1 -5px -5px 10px -5px white;
+    }
+    100%{
+        transform: translate(0, 0) scale(1);
+    }
+}
+
+/* right animation */
+@keyframes right{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+@-webkit-keyframes right{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+/* left animation */
+@keyframes left{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+@-webkit-keyframes left{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+/* swipe animation */
+@keyframes swipe{
+    0%{
+        opacity: 0;
+        -webkit-transform: translatey(70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translatey(0%);
+    }
+}
+@-webkit-keyframes swipe{
+    0%{
+        opacity: 0;
+        -webkit-transform: translatey(70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translatey(0%);
+    }
+}

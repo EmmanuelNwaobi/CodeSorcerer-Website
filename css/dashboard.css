@@ -1,0 +1,93 @@
+#two{
+    display: none;
+}
+.row .dash1{
+   background-color: black;
+}
+.dash1 .navbar-brand{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+.dash1 .navbar-brand .fa-code, .logo{
+    color: rgb(241, 86, 80);
+}
+.dash1 p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dash1 .fa-home, .fa-code, .fa-dolly, .fa-suitcase, .fa-chart-line, .fa-comment-dots, .fa-comments, .fa-book-open{
+    font-size: 25px;
+    color: rgb(241, 86, 80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dash1 p:hover{
+    color: rgba(63, 63, 178, 0.897);
+    cursor: pointer;
+}
+.dash1 h5{
+    color: rgba(245, 245, 245, 0.474);
+}
+.dash2 .na{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dash2 .na img{
+    width: 5%;
+    border-radius: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dash2 .na .btn{
+    background-color: rgb(241, 86, 80);
+
+}
+.dash2 .na .txt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.dash3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 20px;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dash3 img{
+    width: 25%;
+}
+.dash3 .fa-star, .fa-star-half-alt{
+    color: goldenrod;
+}
+.dash4{
+    margin-top: 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    padding: 30px;
+}
+.dash4 .fa-chart-line,  .fa-trophy{
+    color: rgb(241, 86, 80);
+    font-size: 40px;
+}
+.dash4 .fa-users, .fa-sync-alt, .fa-tags, .fa-code{
+    color: rgb(241, 86, 80);
+    font-size: 20px;
+}
+.tx1, .tx2{
+    font-size: 30px;
+}
+
+
+
+/* preloader styling */
+#preloader{
+    background:#000 url(../img/preloader.gif.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+/* preloader styling ends */

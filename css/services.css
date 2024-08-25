@@ -1,0 +1,264 @@
+/* Nav styling */
+nav .navbar-brand{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .collapse ul li a{
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .navbar-brand .fa-code, .logo{
+    color: rgb(241, 86, 80);
+}
+nav .navbar-nav li .btn{
+    border: 2px solid white;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .navbar-nav li .a1{
+    border: 2px solid rgb(241, 86, 80);
+}
+nav .navbar-nav li .active{
+    border-bottom: 3px solid rgb(241, 86, 80);
+}
+/* service background styling */
+.service{
+    margin-top: 6%;
+    background: linear-gradient(to left, rgb(241, 86, 80), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.service h1{
+  font-weight: 700;
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, rgb(241, 86, 80), #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 8s linear infinite;
+  position: relative;
+}
+.service p{
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.service .btn{
+    background-color: rgb(241, 86, 80);
+    padding: 10px;
+    width: 10%;
+    border-radius: 20px;
+}
+.service .tx{
+    color: rgb(241, 86, 80);
+    font-weight: bold;
+}
+.service .message{
+    padding: 100px 50px;
+    position: relative;
+}
+.service .img-fluid{
+    position: absolute;
+    width: 35%;
+    margin-top: 1%;
+}
+.services h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px; 
+    margin-bottom: 2%;
+}
+.services .tx1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;  
+}
+.services .s1 .fa-eye, .s2 .fa-flag, .s3 .fa-gamepad, .services .serve1 .fa-laptop-code, .services .serve2 .fa-brain{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5%;
+    background-color: rgb(241, 86, 80);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.services .s1 h3, .s2 h3, .s3 h3, .services .serve1 h3, .services .serve2 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+}
+.services .s1 .sv1, .s2 .sv2, .s3 .sv3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.services .s1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin: 20px;
+}
+.services .s2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin: 20px;
+}
+.services .s3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin: 15px;
+}
+.services .serve{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;  
+}
+.services .serve .kelly{
+    width: 7%;
+    border-radius: 50%;
+}
+.services .serve .ahmed{
+    width: 7%;
+    border-radius: 50%;
+    filter: grayscale(100);
+}
+.services .serve h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.services .serve p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+.services .serve1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin: 30px;  
+}
+.services .serve2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px; 
+    margin: 25px; 
+}
+.services .serve1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.services .serve2 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+/* Footer styling */
+footer{
+    margin-top: 8%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    padding: 80px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer h2{
+    font-size: 28px;
+}
+footer .fa-code{
+    color: rgb(241, 86, 80);
+}
+footer .lang{
+    margin-top: 2%;
+}
+footer .lang span{
+    padding: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+}
+footer .lang span:hover{
+    background-color: rgb(241, 86, 80);
+}
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    padding: 5px;
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+footer .fa-angle-right{
+    color: rgb(241, 86, 80);
+}
+/* footer styling ends */
+
+
+/* Responsive styling */
+@media (max-width: 845px){
+    .service{
+        background: linear-gradient(to top, rgb(241, 86, 80), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    }
+    .service h1{
+        font-size: 35px;
+    }
+    .service .btn{
+        width: 30%;
+    }
+    .service .img-fluid{
+        display: none;
+    }
+    .services h1{
+        font-size: 30px; 
+    }
+    .services .tx1{
+        font-size: 15px;  
+    }
+    .services .s1{
+        margin: -1px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    .services .s2{
+        margin: -1px;
+        margin-bottom: 4%;
+    }
+    .services .s3{
+        margin: -1px;
+        margin-bottom: 4%;
+    }
+    .services .serve p{
+     margin-bottom: 8%;
+     margin-top: 1%;
+    }
+    .services .serve .kelly{
+        width: 15%;
+    }
+    .services .serve .ahmed{
+        width: 15%;
+    }
+    .services .serve1{
+        margin: -1px;
+        margin-bottom: 4%;  
+    }
+    .services .serve2{
+        margin: -1px;
+        margin-bottom: 4%; 
+    }
+    footer .lang{
+        margin-bottom: 5%;
+    }
+}
+
+
+@keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }

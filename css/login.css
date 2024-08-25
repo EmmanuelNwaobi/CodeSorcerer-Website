@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Nav styling */
+nav .navbar-brand{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .collapse ul li a{
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .navbar-brand .fa-code, .logo{
+    color: rgb(241, 86, 80);
+}
+nav .navbar-nav li .btn{
+    border: 2px solid white;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .navbar-nav li .a1{
+    border: 2px solid rgb(241, 86, 80);
+}
+/* Login styling */
+.register{
+    margin-top: 10%;
+    width: 30%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    animation: slideInTop 3s ease-in-out;
+}
+.register a{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.register .b1{
+    background-color: black;
+    width: 100%;
+}
+.register .b2{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.register .b2:hover{
+    color: lightskyblue;
+}
+.register .b3{
+    width: 25%;
+    background-color: rgb(241, 86, 80);
+    border: 1px solid rgb(241, 86, 80);
+    font-size: 15px;
+}
+.register .b4 a{
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.register .b4 a:hover{
+    color: lightskyblue;
+}
+
+/* Footer styling */
+footer{
+    margin-top: 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    padding: 80px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer h2{
+    font-size: 28px;
+}
+footer .fa-code{
+    color: rgb(241, 86, 80);
+}
+footer .lang{
+    margin-top: 2%;
+}
+footer .lang span{
+    padding: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+}
+footer .lang span:hover{
+    background-color: rgb(241, 86, 80);
+}
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    padding: 5px;
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+footer .fa-angle-right{
+    color: rgb(241, 86, 80);
+}
+/* footer styling ends */
+
+@media (max-width: 845px){
+    /* login styling */
+    .register{
+        width: 90%;
+        margin-top: 25%;
+    }
+    .register .b3{
+        width: 30%;
+    }
+    footer .lang{
+        margin-bottom: 5%;
+    }
+}
+
+@keyframes slideInTop {
+    from{
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

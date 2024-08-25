@@ -1,0 +1,124 @@
+#two{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 15px;
+}
+nav ul li img{
+    width: 50px;
+    border-radius: 50%;
+}
+nav ul li .btn{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#user-icon{
+    cursor: pointer;
+    color: rgb(241, 86, 80);
+    font-size: 35px;
+    margin: 10px;
+}
+/* side nav */
+.sidenav{
+    width: 360px;
+    min-height: 100vh;
+    background-color: black;
+    box-shadow: 2px 0 4px rgb(241, 86, 80);;
+    position: fixed;
+    top: 0;
+    left: -77%;
+    transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sidenav .fa-home, .fa-chart-line, .fa-user, .fa-github{
+    color: rgb(241, 86, 80);
+    font-size: 30px;
+}
+.sidenav.active{
+    right: 0;
+}
+#close-sidenav{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(241, 86, 80);
+}
+.train1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    border-radius: 20px;
+}
+.train2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    border-radius: 20px;
+}
+.train3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    border-radius: 20px;
+}
+.train3 p{
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    font-size: 15px;
+}
+.train3 p:hover{
+    color: rgb(241, 86, 80);
+}
+.train3 .fa-android, .fa-codepen, .fa-first-order, .fa-cloudsmith, .fa-pushed, .fa-rust, .fa-brain, .fa-cuttlefish, .fa-gofore, .fa-lastfm, .fa-qq, .fa-skyatlas, .fa-dochub, .fa-grav, .fa-linode, .fa-palfed, .fa-sellcast, .fa-dropbox, .fa-hotjar, .fa-napster, .fa-python, .fa-strava, .fa-connectdevelop, .fa-erlang, .fa-keycdn, .fa-neos, .fa-r-project, .fa-stack-exchange, .fa-java, .fa-js-square, .fa-vuejs, .fa-fly, .fa-joget, .fa-periscope, .fa-rev, .fa-foursquare, .fa-korvue, .fa-php, .fa-pushed{
+    font-size: 30px;
+}
+.train4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    border-radius: 20px;
+}
+.train5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    border-radius: 20px;
+}
+.train6 .btn{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    padding: 10px; 
+}
+.train6 .btn:hover{
+    background-color: rgb(241, 86, 80);
+}
+
+@media (max-width: 845px){
+    .sidenav{
+    width: 110px;
+    
+    } 
+}
+
+/* preloader styling */
+#preloader{
+    background:#000 url(../img/preloader.gif.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+/* preloader styling ends */

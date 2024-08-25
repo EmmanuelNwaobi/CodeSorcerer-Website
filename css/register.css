@@ -1,0 +1,114 @@
+/* Nav styling */
+nav .navbar-brand{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .collapse ul li a{
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .navbar-brand .fa-code, .logo{
+    color: rgb(241, 86, 80);
+}
+nav .navbar-nav li .btn{
+    border: 2px solid white;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .navbar-nav li .a1{
+    border: 2px solid rgb(241, 86, 80);
+}
+
+/* REGISTRATION STYLING */
+.register{
+    margin-top: 10%;
+}
+.register h3{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}
+.register1{
+    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin-top: 1%;
+    animation: slideInTop 3s ease-in-out;
+}
+.register1 .btn{
+    width: 40%;
+    padding: 8px;
+    background-color: rgb(241, 86, 80);
+    border: 1px solid rgb(241, 86, 80);
+    font-size: 20px;
+}
+#show, #show2{
+    background-color: rgb(241, 86, 80);
+    border: 1px solid rgb(241, 86, 80);
+    border-radius: 10px;
+}
+
+/* Footer styling */
+footer{
+    margin-top: 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    padding: 80px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer h2{
+    font-size: 28px;
+}
+footer .fa-code{
+    color: rgb(241, 86, 80);
+}
+footer .lang{
+    margin-top: 2%;
+}
+footer .lang span{
+    padding: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+}
+footer .lang span:hover{
+    background-color: rgb(241, 86, 80);
+}
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    padding: 5px;
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+footer .fa-angle-right{
+    color: rgb(241, 86, 80);
+}
+/* footer styling ends */
+
+@media (max-width: 845px){
+    /* registration styling */
+    .register{
+        margin-top: 25%;
+    }
+    .register1{
+        width: 90%;
+    }
+    footer .lang{
+        margin-bottom: 5%;
+    }
+}
+
+@keyframes slideInTop {
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

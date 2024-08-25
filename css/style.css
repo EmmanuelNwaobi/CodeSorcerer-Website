@@ -1,0 +1,615 @@
+html{
+    scroll-behavior: smooth;
+}
+#two{
+    display: none;
+}
+/* Nav styling */
+nav .navbar-brand{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .collapse ul li a{
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .navbar-brand .fa-code, .logo{
+    color: rgb(241, 86, 80);
+}
+nav .navbar-nav li .btn{
+    border: 2px solid white;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav .navbar-nav li .a1{
+    border: 2px solid rgb(241, 86, 80);
+}
+nav .navbar-nav li .active{
+    border-bottom: 3px solid rgb(241, 86, 80);
+}
+/* HOME STYLYING */
+.home{
+    margin-top: 10%;
+    animation: slideInTop 3s ease-in-out;
+}
+.home h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home h1 .tx{
+  font-weight: 700;
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, rgb(241, 86, 80), #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 8s linear infinite;
+  position: relative;
+}
+.home p{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.home .btn{
+    background-color: rgb(241, 86, 80);
+    padding: 10px;
+    width: 10%;
+    margin-bottom: 7%;
+}
+.home .m1 img{
+    width: 70%;
+    height: 50px;
+    background-color: white;
+}
+
+/* HERO STYLING */
+.hero{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(241,86,80), rgb(0,0,0,0.5));
+    border-radius: 20px;
+    margin-top: 7%;
+}
+.hero .fa-code{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    border: 1px solid rgb(241, 86, 80);
+    background-color: rgb(241, 86, 80);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.hero h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 5%;
+}
+.hero .t1, .info .in1 p, .info .in2 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+/* INFO STYLING */
+.info .in1, .info .in2{
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+}
+.info .fa-thumbs-up, .info .in2 .fa-vials{
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 10%;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+}
+.info .in1 h1, .info .in2 h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 5%;
+}
+.info .in1 img{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.info .in2{
+    margin-left: 8%;
+}
+.info .in2 img{
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+/* ABOUT US STYLING */
+.about h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.about p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.about .ab1{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(241,86,80), rgb(0,0,0,0.5));
+    border-radius: 20px;
+    padding: 50px;
+}
+.about .ab2 .b1{
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+}
+.about .ab2 .fa-globe{
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.about .ab2 .b1 h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 5%;
+}
+.about .ab2 .b1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 5%; 
+}
+.about .ab2 .b1 img{
+    margin-top: 5%;
+    margin-bottom: 7%; 
+}
+.about .ab2 .b2{
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    margin-left: 8%;
+}
+.about .ab2 .fa-file{
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.about .ab2 .b2 h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.about .ab2 .b2 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 5%; 
+}
+.about .ab2 .b2 img{
+    margin-top: 5%;
+}
+
+/* SERVICES STYLING */
+.services h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px; 
+    margin-bottom: 2%;
+}
+.services .tx1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;  
+}
+.services .s1 .fa-eye, .s2 .fa-flag, .s3 .fa-gamepad, .services .serve1 .fa-laptop-code, .services .serve2 .fa-brain{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5%;
+    background-color: rgb(241, 86, 80);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.services .s1 h3, .s2 h3, .s3 h3, .services .serve1 h3, .services .serve2 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+}
+.services .s1 .sv1, .s2 .sv2, .s3 .sv3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.services .s1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin: 20px;
+}
+.services .s2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin: 20px;
+}
+.services .s3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin: 15px;
+}
+.services .serve{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;  
+}
+.services .serve .kelly{
+    width: 7%;
+    border-radius: 50%;
+}
+.services .serve .ahmed{
+    width: 7%;
+    border-radius: 50%;
+    filter: grayscale(100);
+}
+.services .serve h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.services .serve p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+.services .serve1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin: 30px;  
+}
+.services .serve2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px; 
+    margin: 25px; 
+}
+.services .serve1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.services .serve2 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+/* BLOG STYLING */
+.blg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin: 25px;
+}
+.blg:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+.blog .tx1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blog h1{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blog .m1 img{
+    margin-left: -2%;
+    border-radius: 10px;
+}
+.blog p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.blog .b1{
+    margin-top: 7%;
+    background-color: rgb(241, 86, 80);
+    border-radius: 35px;
+    color: #000;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+.blog .b1:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+.blog .tx2{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+.blog .p1{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+.blog .mg1 img{
+    margin-left: 5%;
+    border-radius: 90%;
+    filter: grayscale(100);
+    margin-bottom: 20%;
+}
+.blog .mg1 .tx3{
+    margin-left: 5%;
+    margin-top: -12%;
+}
+.bgl{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    margin: 25px;
+}
+.bgl:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+.blog .bgl .b2{
+    margin-top: 7%;
+    background-color: rgb(241, 86, 80);
+    border-radius: 35px;
+    color: #000;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+.blog .bgl .tx3{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+.blog .bgl .p2{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+.blog .bgl .mg2 img{
+    margin-left: 5%;
+    border-radius: 90%;
+    filter: grayscale(100);
+    margin-bottom: 5%;
+}
+.blog .bgl .mg2 .tx4{
+    margin-left: 5%;
+}
+/* about us cont'd styling */
+.abu{
+  background-image: linear-gradient(rgba(30, 71, 49, 0.5), rgb(20, 66, 45)); 
+  border-radius: 10px; 
+}
+.abu .tx1{
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.abu .tx2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-left: 8%;
+}
+.abu .tx2 .fa-star{
+    color:  rgb(45, 226, 145) ;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.abu .tx3{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.abu .tx4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/* Footer styling */
+footer{
+    margin-top: 8%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    padding: 80px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer h2{
+    font-size: 28px;
+}
+footer .fa-code{
+    color: rgb(241, 86, 80);
+}
+footer .lang{
+    margin-top: 2%;
+}
+footer .lang span{
+    padding: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+}
+footer .lang span:hover{
+    background-color: rgb(241, 86, 80);
+}
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    padding: 5px;
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+footer .fa-angle-right{
+    color: rgb(241, 86, 80);
+}
+/* footer styling ends */
+#mybtn{
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    z-index: 99;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(241, 86, 80);
+    cursor: pointer;
+    padding: 15px;
+    transition: 2s ease;
+    color: white;
+}
+
+
+/* Responsive styling */
+@media (max-width: 845px){
+    /* Home styling */
+    .home{
+        margin-top: 25%;
+    }
+    .home h1{
+    font-size: 35px;
+    }
+    .home h1 .tx{
+        font-size: 40px;
+    }
+    .home p{
+        font-size: 15px;
+    }
+    .home .btn{
+        padding: 7px;
+        width: 30%;
+        margin-bottom: 7%;
+    } 
+    .home .m1 img{
+        width: 70%;
+        height: 50px;
+        background-color: white;
+        margin: 10px;
+    } 
+    /* hero styling */
+    .hero img{
+        margin-top: -5%;
+        margin-bottom: -5%;
+    }
+    .hero .t1{
+        margin-bottom: -5%;
+    }
+    /* info styling */
+    .info .in2{
+    margin-left: -1%;
+    margin-top: 5%;
+    }
+    /* about us styling */
+    .about h1{
+        font-size: 30px;
+    }
+    .about p{
+        font-size: 15px;
+    }
+    .about .ab1{
+        padding: 30px;
+    }
+    .about .ab2 .b2{
+        margin-left: -1%;
+        margin-top: 5%;
+    }
+    /* services styling     */
+    .services h1{
+        font-size: 30px; 
+    }
+    .services .tx1{
+        font-size: 15px;  
+    }
+    .services .s1{
+        margin: -1px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    .services .s2{
+        margin: -1px;
+        margin-bottom: 4%;
+    }
+    .services .s3{
+        margin: -1px;
+        margin-bottom: 4%;
+    }
+    .services .serve p{
+     margin-bottom: 8%;
+     margin-top: 1%;
+    }
+    .services .serve .kelly{
+        width: 15%;
+    }
+    .services .serve .ahmed{
+        width: 15%;
+    }
+    .services .serve1{
+        margin: -1px;
+        margin-bottom: 4%;  
+    }
+    .services .serve2{
+        margin: -1px;
+        margin-bottom: 4%; 
+    }
+    /* Blog Styling */
+    .blg{
+       margin: -1px; 
+       margin-left: 3%;
+       margin-bottom: 8%; 
+
+    }
+    .bgl{
+      margin: -1px; 
+      margin-left: 3%; 
+      margin-bottom: 4%; 
+    }
+    footer .lang{
+        margin-bottom: 5%;
+    }
+}
+
+
+@keyframes slideInTop {
+    from{
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+}
+
+/* preloader styling */
+#preloader{
+    background:#000 url(../img/preloader.gif.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+/* preloader styling ends */

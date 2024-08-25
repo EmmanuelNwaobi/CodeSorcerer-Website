@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/leaderboard.css">
+    <title>Leaderboard</title>
+</head>
+<body>
+    <nav>
+        <div class="container-fluid">
+            <span class="fa fa-bars" id="bar" onclick="openNav()"></span>
+        </div>
+        <ul>
+            <li><button class="btn">LeaderBoard</button></li>
+            <li><span class="fa fa-bell"></span></li>
+            <li><span class="fab fa-github"></span></li>
+        </ul>
+    </nav>
+    <div class=" container-fluid sidenav">
+        <div>
+            <p><a href="index.html" class="btn"><span class="fa fa-home"></span></a><br>Go back to home page</p>
+        </div>
+        <div>
+            <p><a href="leaderboard.html" class="btn"><span class="fa fa-chart-line"></span></a><br>Check out our leaderboard, see top
+                ranking students</p>
+        </div>
+        <div>
+            <p><a href="dashboard.html" class="btn"><span class="fa fa-user"></span></a><br>Head over to your dashboard
+                track your progress</p>
+        </div>
+        <span id="close-sidenav">&times;</span>
+    </div>
+    <div class="container hero">
+        <div class="row">
+            <div class="col-md-2 col-12">
+                <button class="btn">Overall</button>
+            </div>
+            <div class="col-md-2 col-12">
+                <button class="btn">Completed code's</button>
+            </div>
+            <div class="col-md-3 col-12">
+                <button class="btn">Authorized code and Translations</button>
+            </div>
+            <div class="col-md-2 col-12">
+                <button class="btn">Ranks</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-3">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-striped">
+                        <h5>A user's honor is determined by earning higher ranks as well as through other activities such as getting up votes on code's, solutions and comments that they create. Certain activities are worth more honor than others. For example publishing a code is worth more than solving one.</h5>
+                        <tr>
+                            <th>Position</th>
+                            <th>User</th>
+                            <th>Clan</th>
+                            <th>Honor</th>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            <td><img src="/img/ellen-weaver.jpg" alt="" width="5%" style="border-radius: 20px; filter: grayscale(100);"> Ellen</td>
+                            <td>None</td>
+                            <td>439,403</td>
+                        </tr>
+                        <tr>
+                            <td>#2</td>
+                            <td><img src="/img/ahmed.jpg" alt="" width="5%" style="border-radius: 20px;"> Ahmed</td>
+                            <td>None</td>
+                            <td>335,703</td>
+                        </tr>
+                        <tr>
+                            <td>#3</td>
+                            <td><img src="/img/ellen-weaver.jpg" alt="" width="5%" style="border-radius: 20px; filter: grayscale(100);"> Ellen</td>
+                            <td>Codewars</td>
+                            <td>339,403</td>
+                        </tr>
+                        <tr>
+                            <td>#4</td>
+                            <td><img src="/img/ellen-weaver.jpg" alt="" width="5%" style="border-radius: 20px;"> judit</td>
+                            <td>Codewizard</td>
+                            <td>369,407</td>
+                        </tr>
+                        <tr>
+                            <td>#5</td>
+                            <td><img src="/img/ahmed.jpg" alt="" width="5%" style="border-radius: 20px; filter: grayscale(100);"> Jude</td>
+                            <td>中国 长垣</td>
+                            <td>335,703</td>
+                        </tr>
+                        <tr>
+                            <td>#6</td>
+                            <td><img src="/img/jake.png" alt="" width="5%" style="border-radius: 20px; filter: grayscale(100);"> jake</td>
+                            <td></td>
+                            <td>325,787</td>
+                        </tr>
+                        <tr>
+                            <td>#7</td>
+                            <td><img src="/img/joel.jpg" alt="" width="5%" style="border-radius: 20px;"> joel</td>
+                            <td>Riot</td>
+                            <td>315,680</td>
+                        </tr>
+                        <tr>
+                            <td>#8</td>
+                            <td><img src="/img/jake.png" alt="" width="5%" style="border-radius: 20px;"> humble</td>
+                            <td></td>
+                            <td>318,107</td>
+                        </tr>
+                        <tr>
+                            <td>#9</td>
+                            <td><img src="/img/ahmed.jpg" alt="" width="5%" style="border-radius: 20px; filter: grayscale(100);"> Voile</td>
+                            <td>9 Dots</td>
+                            <td>125,704</td>
+                        </tr>
+                        <tr>
+                            <td>#10</td>
+                            <td><img src="/img/ahmed.jpg" alt="" width="5%" style="border-radius: 20px;"> wichu</td>
+                            <td>Enfinity Solutions Limited</td>
+                            <td>124,043</td>
+                        </tr>
+                        <tr>
+                            <td>#11</td>
+                            <td><img src="/img/ellen-weaver.jpg" alt="" width="5%" style="border-radius: 20px;"> Nancy</td>
+                            <td>InnoGames GmbH</td>
+                            <td>121,630</td>
+                        </tr>
+                        <tr>
+                            <td>#12</td>
+                            <td><img src="/img/ahmed.jpg" alt="" width="5%" style="border-radius: 20px;"> KenKamau</td>
+                            <td>Self taught</td>
+                            <td>98,535</td>
+                        </tr>
+                        <tr>
+                            <td>#13</td>
+                            <td><img src="/img/joel.jpg" alt="" width="5%" style="border-radius: 20px;"> matt c</td>
+                            <td></td>
+                            <td>97,795</td>
+                        </tr>
+                        <tr>
+                            <td>#14</td>
+                            <td><img src="/img/jake.png" alt="" width="5%" style="border-radius: 20px;"> JohanWiltink</td>
+                            <td>The Twirling Tomatoes</td>
+                            <td>82,390</td>
+                        </tr>
+                        <tr>
+                            <td>#15</td>
+                            <td><img src="/img/ellen-weaver.jpg" alt="" width="5%" style="border-radius: 20px; filter: grayscale(100);"> suuuzi</td>
+                            <td>Institute for Geoinformatics (Germany)</td>
+                            <td>55,421</td>
+                        </tr>
+                        <tr>
+                            <td>#16</td>
+                            <td><img src="/img/ahmed.jpg" alt="" width="5%" style="border-radius: 20px; filter: grayscale(100);"> jacobb</td>
+                            <td>UVM</td>
+                            <td>54,164</td>
+                        </tr>
+                        <tr>
+                            <td>#17</td>
+                            <td><img src="/img/jake.png" alt="" width="5%" style="border-radius: 20px;"> emporio</td>
+                            <td>Media Preset</td>
+                            <td>52,132</td>
+                        </tr>
+                        <tr>
+                            <td>#18</td>
+                            <td><img src="/img/joel.jpg" alt="" width="5%" style="border-radius: 20px;"> osuushi</td>
+                            <td>mooSoftware</td>
+                            <td>52,065</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/all.js"></script>
+<script>
+    let sidenav = document.querySelector('.sidenav')
+    let closesidenav = document.querySelector('#close-sidenav')
+
+    // open sidenav
+    function openNav() {
+        sidenav.classList.add('active')
+    }
+    // close sidenav
+    closesidenav.onclick = () => {
+        sidenav.classList.remove('active')
+    }
+</script>
+</html>

@@ -1,0 +1,66 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 15px;
+}
+nav ul li .btn{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bar{
+    cursor: pointer;
+    color: rgb(241, 86, 80);
+    font-size: 35px;
+    margin: 10px;
+}
+/* side nav */
+.sidenav{
+    width: 360px;
+    min-height: 100vh;
+    background-color: black;
+    box-shadow: 2px 0 4px rgb(241, 86, 80);;
+    position: fixed;
+    top: 0;
+    left: -77%;
+    transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sidenav .fa-home, .fa-chart-line, .fa-user, .fa-github{
+    color: rgb(241, 86, 80);
+    font-size: 30px;
+}
+.sidenav.active{
+    right: 0;
+}
+#close-sidenav{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(241, 86, 80);
+}
+.hero button{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+}
+table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 845px){
+    .sidenav{
+    width: 110px;
+    }
+    table tr td img{
+        width: 30%;
+    }
+}
